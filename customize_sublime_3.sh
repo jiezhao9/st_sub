@@ -4,8 +4,8 @@ set -x #echo on
 OS=$(uname)
 
 if [ $OS == "Linux" ]; then
-	APPDATA="~/.config"
-	SUBL_PATH="$APPDATA/Sublime-Text-3"
+	APPDATA="$HOME/.config"
+	SUBL_PATH="$APPDATA/sublime-text-3"
 else
 	SUBL_PATH="$APPDATA/Sublime Text 3"
 fi
@@ -19,4 +19,5 @@ cd "$PACKAGE_PATH"
 curl -O "https://packagecontrol.io/Package Control.sublime-package"
 
 cd -
+mkdir -p "$SETTING_PATH"
 cp "$SETTING_FILE" "$SETTING_PATH"
