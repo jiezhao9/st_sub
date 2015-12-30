@@ -17,7 +17,10 @@
 	"trim_trailing_white_space_on_save": true,
 
 	//Set ruler with width of 80 characters
-    "rulers":[80,120]
+    "rulers":[80,120],
+
+    //Replace tabs with white spaces
+    "translate_tabs_to_spaces": true
 
 	//Open sublime without files opened last time
 	//Disable it when you want to use subl file in shell
