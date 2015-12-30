@@ -4,10 +4,10 @@ set -x #echo on
 OS=$(uname)
 
 if [ $OS == "Linux" ]; then
-	APPDATA="$HOME/.config"
-	SUBL_PATH="$APPDATA/sublime-text-3"
+    APPDATA="$HOME/.config"
+    SUBL_PATH="$APPDATA/sublime-text-3"
 else
-	SUBL_PATH="$APPDATA/Sublime Text 3"
+    SUBL_PATH="$APPDATA/Sublime Text 3"
 fi
 
 PACKAGE_PATH="$SUBL_PATH/Installed Packages"
