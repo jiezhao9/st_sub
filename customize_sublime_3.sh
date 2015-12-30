@@ -20,4 +20,4 @@ curl -O "https://packagecontrol.io/Package Control.sublime-package"
 
 cd -
 mkdir -p "$SETTING_PATH"
-cp "$SETTING_FILE" "$SETTING_PATH"
+cp $SETTING_FILE "$SETTING_PATH"
