@@ -1,7 +1,4 @@
 {
-    //Enable atomic save
-    "atomic_save": true,
-
     //Set global font_size to 12
     "font_size": 12,
 
