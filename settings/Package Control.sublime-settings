@@ -1,13 +1,13 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"AdvancedNewFile",
-		"Emmet",
-		"Package Control",
-		"SideBarEnhancements"
-	]
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "AdvancedNewFile",
+        "Emmet",
+        "Package Control",
+        "SideBarEnhancements"
+    ]
 }
