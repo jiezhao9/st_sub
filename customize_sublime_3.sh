@@ -11,7 +11,7 @@ else
 fi
 
 PACKAGE_PATH="$SUBL_PATH/Installed Packages"
-SETTING_FILE="Package Control.sublime-settings"
+SETTING_FILE="./settings/*.sublime-settings"
 SETTING_PATH="$SUBL_PATH/Packages/User"
 
 mkdir -p "$PACKAGE_PATH"
